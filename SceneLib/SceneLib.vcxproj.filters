@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{dd80a309-f2cf-4fa8-b085-9247912feefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects2D">
+      <UniqueIdentifier>{fbc05ed5-03c2-4ad4-8951-681e7a8a0d9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\example\Color.cpp">
+      <Filter>Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\Vec2.cpp">
+      <Filter>Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\Point.cpp">
+      <Filter>Objects2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\RectangleFill.cpp">
+      <Filter>Objects2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\VLine.cpp">
+      <Filter>Objects2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\HLine.cpp">
+      <Filter>Objects2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\RectangleVoid.cpp">
+      <Filter>Objects2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\CircleFill.cpp">
+      <Filter>Objects2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\Canavas.cpp" />
+    <ClCompile Include="Scenelib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\example\Color.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\Vec2.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\Point.h">
+      <Filter>Objects2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\RectangleFill.h">
+      <Filter>Objects2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\RectangleVoid.h">
+      <Filter>Objects2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\HLine.h">
+      <Filter>Objects2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\VLine.h">
+      <Filter>Objects2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\CircleFill.h">
+      <Filter>Objects2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\Object2D.h">
+      <Filter>Objects2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\example\Canavas.h" />
+    <ClInclude Include="..\example\Scenelib.h" />
+  </ItemGroup>
+</Project>
